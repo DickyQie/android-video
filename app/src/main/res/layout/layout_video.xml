@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <VideoView android:id="@+id/videoView"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_margin="25dp"
+        />
+
+    <com.videodemo.FllScreenVideoView
+        android:id="@+id/fvideoView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="28dp"
+        />
+
+
+</LinearLayout>
