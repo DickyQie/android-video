@@ -75,5 +75,5 @@
 <p>https://gitee.com/luorenjiejie/ShiPin</p> 
 <p>&nbsp;</p> 
 <p>希望对开发者的小伙伴们有帮助。</p> 
-<p>&nbsp;</p> 
+<p>gif效果图加载慢，请看博客：http://blog.csdn.net/dickyqie/article/details/78883869</p> 
 <span id="OSC_h3_1"></span>
