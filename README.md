@@ -22,10 +22,7 @@
 </p>
 <p><span style="font-size:24px">小结：</span><span style="font-size:14px">其中的</span><span style="font-size:14px">Uri mUri = Uri.parse(<span style="color:#3333ff">&quot;android.resource://&quot;</span> &#43; getPackageName() &#43;<span style="color:#3333ff">&quot;/&quot;</span>&#43; R.raw.<span style="color:#3333ff">qiche</span>);<span style="white-space:pre"></span>//本地视频</span></p>
 <p><span style="font-size:14px"><span style="white-space:pre"></span>是加载的本地视频，可以下载一个视频，在res目录下建立文件夹raw，将其放入其中。</span></p>
-<p><span style="font-size:14px; white-space:pre"><span style="color:#3333ff"></span></span><span style="font-size:18px; color:#3333ff">源码下载 &nbsp;</span></p>
-<p><span style="font-size:18px; color:#3333ff"><span style="white-space:pre"></span>CSDN: &nbsp; &nbsp;&nbsp;<a target="_blank" target="_blank" href="http://download.csdn.net/detail/dickyqie/9580373">http://download.csdn.net/detail/dickyqie/9580373</a></span></p>
-<p><span style="color:rgb(51,51,255); font-size:18px">Github: &nbsp; &nbsp;</span><a target="_blank" target="_blank" href="https://github.com/DickyQie/VideoDemo" style="font-size:18px">&nbsp;https://github.com/DickyQie/VideoDemo</a></p>
-<p><span style="font-size:24px"><span style="white-space:pre"></span></span></p>
+
    
 
    
