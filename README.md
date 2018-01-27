@@ -1,4 +1,4 @@
-# VideoDemo
+#### android之视频播放系统VideoView和自定义VideoView控件的应用
 <div id="article_content" class="article_content">
 
 <p><span style="font-size:14px">Android播放视频，包含系统自带VideoView控件，和自定义VideoView控件，可全屏播放，案例包含了本地视频和网络视频。</span></p>
