@@ -2,10 +2,10 @@ package com.zhangqie.videosummary.activity;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.MediaController;
 import android.widget.VideoView;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.zhangqie.videosummary.R;
 import com.zhangqie.videosummary.widget.FllScreenVideoView;
@@ -58,5 +58,7 @@ public class VideoViewActivity extends AppCompatActivity {
         videoView.pause();
         super.onPause();
     }
+
+
 
 }

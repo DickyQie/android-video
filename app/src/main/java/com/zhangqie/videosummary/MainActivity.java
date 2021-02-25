@@ -2,11 +2,12 @@ package com.zhangqie.videosummary;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.zhangqie.videosummary.activity.SurfaceViewActivity;
 import com.zhangqie.videosummary.activity.SurfaceViewCarmaActivity;
@@ -22,7 +23,7 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity {
 
     String[] strings={"系统和自定义视频控件","自定义视频控件","视频播放样式","全屏播放",
-            "TabLayout+RecylerView+自定义视频","SurfaceView播放视频","SurfaceView拍摄视频"}
+            "TabLayout+RecylerView+自定义视频","SurfaceView播放视频","SurfaceView拍摄视频"};
     @BindView(R.id.listview)
     ListView listview;
 
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView(){
-        ArrayAdapter<String>  adapter=new ArrayAdapter<String>(this,android.R.layout.simple_expandable_list_item_1,strings);
+        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,android.R.layout.simple_expandable_list_item_1,strings);
         listview.setAdapter(adapter);
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

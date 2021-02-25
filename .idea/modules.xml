@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-video.iml" filepath="$PROJECT_DIR$/android-video.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zqvideolibrary/zqvideolibrary.iml" filepath="$PROJECT_DIR$/zqvideolibrary/zqvideolibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-video.iml" filepath="$PROJECT_DIR$/.idea/modules/android-video.iml" group="android-video" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="android-video/app" />
+      <module fileurl="file://$PROJECT_DIR$/zqvideolibrary/zqvideolibrary.iml" filepath="$PROJECT_DIR$/zqvideolibrary/zqvideolibrary.iml" group="android-video/zqvideolibrary" />
     </modules>
   </component>
 </project>

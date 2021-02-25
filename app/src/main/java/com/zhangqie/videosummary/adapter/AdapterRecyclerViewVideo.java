@@ -2,11 +2,12 @@ package com.zhangqie.videosummary.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 import com.zhangqie.videosummary.R;
@@ -64,7 +65,7 @@ public class AdapterRecyclerViewVideo extends RecyclerView.Adapter<AdapterRecycl
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            jzVideoPlayer = ( ZQVideoPlayerStandard) itemView.findViewById(R.id.videoplayer);
+            jzVideoPlayer = (ZQVideoPlayerStandard) itemView.findViewById(R.id.videoplayer);
         }
     }
 

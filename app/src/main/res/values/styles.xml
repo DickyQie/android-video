@@ -9,8 +9,6 @@
     </style>
 
 
-
-
     <!--圆形进度按钮-->
     <declare-styleable name="CircleProgressButton">
         <attr name="cpb_idle_circle_color" format="color" />
