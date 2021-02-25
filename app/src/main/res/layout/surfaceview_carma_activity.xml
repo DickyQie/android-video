@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="拍摄视频"></TextView>
+
+    <SurfaceView
+        android:id="@+id/surface_view_carma"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv1"
+        android:background="@color/colorPrimary" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="record"
+            android:id="@+id/record"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="stop"
+            android:id="@+id/stop"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_alignParentBottom="true">
+
+        <!--
+          app:cpb_idle_ring_color="@android:color/white"
+          app:cpb_pressed_ring_color="@android:color/white"
+           app:cpb_released_ring_color="@android:color/white"
+        -->
+        <com.zhangqie.videosummary.widget.CircleProgressButton
+            android:id="@+id/cpb_record_video_record"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            app:cpb_idle_inner_padding="2dp"
+            app:cpb_idle_ring_width="5dp"
+            app:cpb_is_timer_mode="true"
+            app:cpb_max_progress="30"
+            app:cpb_pressed_inner_padding="2dp"
+            app:cpb_pressed_ring_width="5dp"
+            app:cpb_released_inner_padding="2dp"
+            app:cpb_released_ring_width="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="00:12"
+            android:textSize="12dp"
+            android:textColor="#ffffff"
+            />
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -33,7 +33,6 @@ public class ZQVideoStyleActivity extends AppCompatActivity {
     private void initView() {
         zqvideo.setUp("https://scb.liaidi.com//data//video//2017//12//20171214235251279358.mp4",  ZQVideoPlayerStandard.SCREEN_WINDOW_LIST, "标题");
         zqvideo.startVideo();
-
     }
 
 

@@ -8,6 +8,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.zhangqie.videosummary.activity.SurfaceViewActivity;
+import com.zhangqie.videosummary.activity.SurfaceViewCarmaActivity;
 import com.zhangqie.videosummary.activity.VideoViewActivity;
 import com.zhangqie.videosummary.activity.ZQFullVideoActivity;
 import com.zhangqie.videosummary.activity.ZQVideoActivity;
@@ -19,7 +21,8 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
-    String[] strings={"系统和自定义视频控件","自定义视频控件","视频播放样式","全屏播放","TabLayout+RecylerView+自定义视频"};
+    String[] strings={"系统和自定义视频控件","自定义视频控件","视频播放样式","全屏播放",
+            "TabLayout+RecylerView+自定义视频","SurfaceView播放视频","SurfaceView拍摄视频"};
     @BindView(R.id.listview)
     ListView listview;
 
@@ -47,7 +50,10 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, ZQFullVideoActivity.class));
                 }else if (position==4){
                     startActivity(new Intent(MainActivity.this, ZQFragmentActivity.class));
-
+                }else if (position == 5){
+                    startActivity(new Intent(MainActivity.this, SurfaceViewActivity.class));
+                }else if (position == 6){
+                    startActivity(new Intent(MainActivity.this, SurfaceViewCarmaActivity.class));
                 }
             }
         });

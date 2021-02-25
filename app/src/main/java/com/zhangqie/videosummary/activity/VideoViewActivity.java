@@ -34,8 +34,10 @@ public class VideoViewActivity extends AppCompatActivity {
     }
 
     private void initView(){
-        Uri mUri = Uri.parse("https://scb.liaidi.com//data//video//2017//12//20171214235251279358.mp4");
-        videoView.setMediaController(new MediaController(this));
+        //Uri mUri = Uri.parse("https://scb.liaidi.com//data//video//2017//12//20171214235251279358.mp4");
+        Uri mUri = Uri.parse("http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4");
+
+       // videoView.setMediaController(new MediaController(this));
         videoView.setVideoURI(mUri);
         videoView.start();
         videoView.requestFocus();
@@ -45,10 +47,10 @@ public class VideoViewActivity extends AppCompatActivity {
         // videoView.seekTo(3 * 1000);//3秒处
 
 
-        fvideoView.setMediaController(new MediaController(this));
+      /*  fvideoView.setMediaController(new MediaController(this));
         fvideoView.setVideoURI(mUri);
        
-        fvideoView.requestFocus();
+        fvideoView.requestFocus();*/
     }
 
     @Override
@@ -56,7 +58,5 @@ public class VideoViewActivity extends AppCompatActivity {
         videoView.pause();
         super.onPause();
     }
-
-
 
 }

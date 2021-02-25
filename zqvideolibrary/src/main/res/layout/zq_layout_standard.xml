@@ -81,7 +81,8 @@
             android:paddingLeft="14dp"
             android:paddingRight="14dp"
             android:scaleType="centerInside"
-            android:src="@drawable/zq_enlarge" />
+            android:src="@drawable/zq_enlarge"
+            />
     </LinearLayout>
 
     <ProgressBar
