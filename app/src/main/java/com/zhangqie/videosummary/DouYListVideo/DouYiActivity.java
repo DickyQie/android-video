@@ -124,6 +124,7 @@ public class DouYiActivity extends AppCompatActivity {
                 holder.mp_video.startVideo();
             }
             Glide.with(context).load(bean).into(holder.mp_video.thumbImageView);
+
             holder.tv_title.setText("第" + position + "个视频");
         }
 

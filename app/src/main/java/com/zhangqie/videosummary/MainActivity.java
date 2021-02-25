@@ -22,7 +22,7 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity {
 
     String[] strings={"系统和自定义视频控件","自定义视频控件","视频播放样式","全屏播放",
-            "TabLayout+RecylerView+自定义视频","SurfaceView播放视频","SurfaceView拍摄视频"};
+            "TabLayout+RecylerView+自定义视频","SurfaceView播放视频","SurfaceView拍摄视频"}
     @BindView(R.id.listview)
     ListView listview;
 
